@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/steinterTree.iml" filepath="$PROJECT_DIR$/.idea/steinterTree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/steinerTree.iml" filepath="$PROJECT_DIR$/.idea/steinerTree.iml" />
     </modules>
   </component>
 </project>
