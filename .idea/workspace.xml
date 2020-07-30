@@ -16,36 +16,16 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a280721-a57e-4ccb-af09-342a036d23ba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/RegisteryForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Financialmanager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Grayder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Grroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Niazha.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Owner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/RegisteryForm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/System.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../src/main/java/model/Workshop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/ConstantRouter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/ConstantRouter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/Financialmanager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/Financialmanager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/Form.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/Form.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/Grayder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/Grayder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/MainVerticle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/MainVerticle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/com/example/starter/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/../src/main/java/com/example/starter/Users.java" afterDir="false" />
-    </list>
+    <list default="true" id="7a280721-a57e-4ccb-af09-342a036d23ba" name="Default Changelist" comment="graph" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -59,7 +39,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fPNRxeMuR5GFDLrZ4EUu1BbULn" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -149,6 +129,21 @@
       <option name="presentableId" value="Default" />
       <updated>1596115765396</updated>
     </task>
+    <task id="LOCAL-00001" summary="nothing specific">
+      <created>1596116667982</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1596116667982</updated>
+    </task>
+    <task id="LOCAL-00002" summary="graph">
+      <created>1596116757323</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596116757323</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -161,6 +156,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="nothing specific" />
+    <MESSAGE value="graph" />
+    <option name="LAST_COMMIT_MESSAGE" value="graph" />
   </component>
   <component name="WindowStateProjectService">
     <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1596115991163">
