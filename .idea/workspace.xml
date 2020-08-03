@@ -20,12 +20,40 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a280721-a57e-4ccb-af09-342a036d23ba" name="Default Changelist" comment="graph" />
+    <list default="true" id="7a280721-a57e-4ccb-af09-342a036d23ba" name="Default Changelist" comment="MST">
+      <change afterPath="$PROJECT_DIR$/bipe2p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bipe2u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc3-10p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc3-10u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc3-4p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc3-4u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc3-5p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc3-5p.stp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc3-5u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc5-3p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc5-3u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc6-2p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc6-2u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc6-3p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc6-3u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc9-2p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cc9-2u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hc6p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hc6u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hc7p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hc7u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hc8p.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hc8u.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hc9u.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/Graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bip42p.stp" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,15 +70,47 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fPNRxeMuR5GFDLrZ4EUu1BbULn" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="steinerTree" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Graph.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Graph" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -77,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596116757323</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MST">
+      <created>1596139547834</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596139547835</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -90,13 +157,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="nothing specific" />
     <MESSAGE value="graph" />
-    <option name="LAST_COMMIT_MESSAGE" value="graph" />
+    <MESSAGE value="MST" />
+    <option name="LAST_COMMIT_MESSAGE" value="MST" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="477" y="193" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596290124129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="193" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1596290124129" />
     <state x="423" y="0" key="CommitChangelistDialog2" timestamp="1596115991163">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -113,5 +187,57 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="615" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596116509186" />
+    <state width="1509" height="244" key="GridCell.Tab.0.bottom" timestamp="1596459366612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596459366612" />
+    <state width="1509" height="244" key="GridCell.Tab.0.center" timestamp="1596459366612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1596459366612" />
+    <state width="1509" height="244" key="GridCell.Tab.0.left" timestamp="1596459366611">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1596459366611" />
+    <state width="1509" height="244" key="GridCell.Tab.0.right" timestamp="1596459366612">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1596459366612" />
+    <state width="1509" height="244" key="GridCell.Tab.1.bottom" timestamp="1596459366614">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1596459366614" />
+    <state width="1509" height="244" key="GridCell.Tab.1.center" timestamp="1596459366613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1596459366613" />
+    <state width="1509" height="244" key="GridCell.Tab.1.left" timestamp="1596459366613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1596459366612" />
+    <state width="1509" height="244" key="GridCell.Tab.1.right" timestamp="1596459366613">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1509" height="244" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1596459366613" />
+    <state x="153" y="0" key="SettingsEditor" timestamp="1596139454546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="153" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1596139454546" />
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2" timestamp="1596139658535">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="261" y="80" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1596139658535" />
+    <state x="537" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596139557678">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="537" y="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1596139557678" />
+    <state x="0" y="375" width="1128" height="548" key="dock-window-1" timestamp="1596290929505">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="375" width="1128" height="548" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1596290929505" />
+    <state x="0" y="0" width="715" height="824" key="find.popup" timestamp="1596287628162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="0" width="715" height="824" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1596287628162" />
   </component>
 </project>
